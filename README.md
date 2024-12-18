@@ -5,8 +5,23 @@
 **Idea:**  
 The idea behind this project is to create a lightweight, Redis-like in-memory data store with support for multiple data types and essential commands. The goal is to understand the underlying mechanics of In Memory Cache based Database and to provide a foundation for building high-performance, scalable applications.
 
-**How I got the Idea:**  
-I was building a project which needed a queue and I used Redis Queue for that purpose
+**Project Genesis & Motivation**
+
+My journey into building a In Memory Cached DataBase began during the development of a scalable web application that required a robust queuing system. After evaluating several options, I chose Redis Queue (RQ) for its:
+
+- Simplicity and lightweight nature
+- Excellent Python and JavaScript integration
+- High performance characteristics
+- Built-in support for job prioritization
+
+Working with Redis opened my eyes to the elegance of in-memory data structures and their powerful applications in modern system design. Fascinated by its architecture and performance capabilities, I dove deep into Redis's internal implementation, studying:
+
+- Memory management techniques
+- Data structure implementations
+- Client-server communication protocols
+- Persistence strategies
+
+This exploration inspired me to create my own Redis-like implementation to better understand these concepts hands-on.
 
 **Purpose:**  
 In Memory Cache based Databases are widely used for caching, message brokering, and real-time data processing. By implementing a simplified version, I aim to:
