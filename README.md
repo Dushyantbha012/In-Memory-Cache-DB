@@ -5,6 +5,9 @@
 **Idea:**  
 The idea behind this project is to create a lightweight, Redis-like in-memory data store with support for multiple data types and essential commands. The goal is to understand the underlying mechanics of In Memory Cache based Database and to provide a foundation for building high-performance, scalable applications.
 
+**How I got the Idea:**  
+I was building a project which needed a queue and I used Redis Queue for that purpose
+
 **Purpose:**  
 In Memory Cache based Databases are widely used for caching, message brokering, and real-time data processing. By implementing a simplified version, I aim to:
 - Deepen our understanding of distributed systems and data stores.
@@ -100,7 +103,17 @@ In Memory Cache based Databases are widely used for caching, message brokering, 
    - **Golang:** Create a Go client for seamless server integration in backend services.
    - **Python:** Build a Python library for use in data processing and machine learning workflows.
 
-6. **Advanced Data Types (have to study more about it) :**
+6. **PubSub (thinking to implement in V2):**
+     The Pub/Sub feature enables clients to subscribe to channels and receive messages published to those channels in real-time. This allows for efficient message broadcasting and is ideal for use cases like chat systems, real-time notifications, and live data streaming.
+
+   **Key Features:**
+
+   - Clients can subscribe to one or multiple channels.
+   - Messages published to a channel are instantly pushed to all subscribers.
+   - Supports pattern matching for subscribing to multiple channels with a single pattern.
+   - Efficient handling of subscriber connections and message distribution.
+
+7. **Advanced Data Types (have to study more about it) :**
    - Support for HyperLogLogs, streams, and geospatial indexes.
 
 ---
