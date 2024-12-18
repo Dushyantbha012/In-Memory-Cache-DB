@@ -1,16 +1,16 @@
-# Mini Redis Project Presentation
+# In Memory Cached DataBase Project
 
 ## **Introduction**
 
 **Idea:**  
-The idea behind this project is to create a lightweight, Redis-like in-memory data store with support for multiple data types and essential commands. The goal is to understand the underlying mechanics of In Memory Cache based Database and to provide a foundation for building high-performance, scalable applications.
+The idea behind this project is to create a lightweight, Redis-like in-memory data store with support for multiple data types and essential commands. The goal is to understand the underlying mechanics of In Memory Cache Based Database and to provide a foundation for building high-performance, scalable applications.
 
 **Project Genesis & Motivation**
 
-My journey into building a In Memory Cached DataBase began during the development of a scalable web application that required a robust queuing system. After evaluating several options, I chose Redis Queue (RQ) for its:
+My journey into building an In Memory Cached DataBase began during the development of a scalable web application that required a robust queuing system. After evaluating several options, I chose Redis Queue (RQ) for its:
 
 - Simplicity and lightweight nature
-- Excellent Python and JavaScript integration
+- Excellent Python and NEXT.JS integration
 - High performance characteristics
 - Built-in support for job prioritization
 
@@ -25,7 +25,7 @@ This exploration inspired me to create my own Redis-like implementation to bette
 
 **Purpose:**  
 In Memory Cache based Databases are widely used for caching, message brokering, and real-time data processing. By implementing a simplified version, I aim to:
-- Deepen our understanding of distributed systems and data stores.
+- Deepen my understanding of distributed systems and data stores.
 - Create a customizable, lightweight alternative for specific use cases.
 - Build a platform for further experimentation and learning.
 
@@ -89,7 +89,7 @@ In Memory Cache based Databases are widely used for caching, message brokering, 
 
 3. **Memory Management:**
    - Balancing memory usage with performance.
-   - Implementing efficient data structures for sorted sets and lists.
+   - Implementing efficient data structures for sets and lists.
 
 4. **Extensibility:**
    - Designing the system to allow for new data types and commands.
@@ -109,7 +109,7 @@ In Memory Cache based Databases are widely used for caching, message brokering, 
    - Distribute keys across multiple instances for horizontal scaling.
    - Implement master-slave replication.
 
-4. **Protocol Support :**
+4. **Protocol Support (supporting it in basic commands) :**
    - Implement Redis Serialization Protocol (RESP) for compatibility with Redis clients.
    - Basic commands till now support RESP
 
